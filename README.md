@@ -97,7 +97,42 @@ npm i react-datepicker --save
 npm i react-datetime --save
 ```
 
-### Install Packages with one command
+### Install Toastify 
+```
+npm i react-toastify --save
+```
+
+### React Select
+```
+npm i react-select --save
+```
+
+### React Flag Select
+```
+npm i react-flags-select --save
+```
+
+### React Currency Select Input Field
+```
+npm i react-currency-input-field --save
+```
+
+### Moment JS 
+```
+npm i moment --save
+```
+
+### Environment 
+```
+npm i cmd-env --save
+```
+
+### Carousel - Swiper [a #] (https://swiperjs.com/react)
+```
+npm i swiper --save
+```
+
+### Install Basic Packages at Once
 ``` 
-npm i bootstrap react-bootstrap node-sass redux react-redux redux-thunk axios react-router-dom react-datepicker react-datetime --save
+npm i bootstrap react-bootstrap node-sass react-toastify redux react-redux redux-thunk axios react-router-dom react-datepicker react-datetime --save
 ```
