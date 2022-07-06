@@ -127,7 +127,7 @@ npm i moment --save
 npm i cmd-env --save
 ```
 
-### Carousel - Swiper [a #] (https://swiperjs.com/react)
+### Carousel - Swiper [#](https://swiperjs.com/react)
 ```
 npm i swiper --save
 ```
