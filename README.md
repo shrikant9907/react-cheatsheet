@@ -40,6 +40,31 @@ npm i bootstrap react-bootstrap --save
 ```
 npm i react-router-dom --save
 ```
+import
+```
+import { 
+  BrowserRouter as Router, 
+  Routes, 
+  Route, 
+  Link 
+} from "react-router-dom";
+```
+Uses
+```
+<Router>
+  <Routes>
+    <Route path="/" element={ <HomePage /> } />
+    <Route path="/about" element={ <AboutPage /> } />
+    <Route path="/product/:productId" element={<ProductDetailsPage />} />
+    <Route path="/contact" element={ <ContactPage /> }/>
+    <Route path="/invoices" element={<Invoices />}>
+      <Route path="/:invoiceId" element={<Invoice />} />
+      <Route path="/sent" element={<SentInvoices />} />
+    </Route>
+    <Route path="/*" element={ <PageNotFound /> } />
+  </Routes>
+</Router>
+```
 
 #### Install Redux, Redux Thunk
 ```
@@ -70,4 +95,9 @@ npm i react-datepicker --save
 ### Install Data Time Picker
 ```
 npm i react-datetime --save
+```
+
+### Install Packages with one command
+``` 
+npm i bootstrap react-bootstrap node-sass redux react-redux redux-thunk axios react-router-dom react-datepicker react-datetime --save
 ```
